@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url("Assets/images/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height:644px;
+    position:relative;
+}
+.box{
+    height: 644px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: auto;
+    align-items: center;
+    height: 90px;
+}
+
+nav img{
+    position: relative;
+    z-index: 10;
+    width:150px;
+}
+
+nav button{
+    position: relative;
+    z-index: 1;
+}
+
+.hero{
+   top: -60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    position: relative;
+    padding: 30px;
+    gap: 20px;
+  
+   
+    
+
+}
+
+.hero> :nth-child(1){
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: -3px;
+
+}
+
+.hero> :nth-child(2){
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  text-align: center;
+  
+}
+
+.hero> :nth-child(3){
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+
+
+}
+
+.signin{
+    background-color: red;
+    color: white;
+    padding: 6px 16px;
+    margin-left: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    border: none;
+}
+
+.dropdown{
+    padding: 5px 20px;
+    border: none;
+    background-color: rgba(141, 141, 141, 0.575);
+    color: white;
+   
+}
+.gets{
+    display: flex;
+    align-items: center;
+}
+
+.getstart{
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    color:white;
+    padding: 12px 25px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.place input{
+margin-right:10px ;
+background-color: rgba(53, 53, 53, 0.349);
+padding: 16px 170px 16px 10px;
+font-size: 15px;
+border-radius: 5px;
+color: white;
+border: 1px solid rgb(161, 161, 161);
+}
+
+.sepration{
+    height: 7px;
+    background-color: rgb(37, 37, 37);
+    position: relative;
+    z-index: 20;
+}
+
+.section2{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 80px;
+  
+
+   
+
+   
+}
+
+.textside{
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: start;
+    
+   
+}
+
+.textside > :nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+   
+    
+}
+
+.textside > :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    max-width: 30vw;
+}
+.graphics{
+    position: relative;
+}
+
+.graphics img{
+   height: 450px;
+   position: relative;
+   z-index: 10;
+}
+.graphics video{
+    height: 290px;
+    position: absolute;
+    top: 80px;
+    right: 2px;
+}
+
+.textside1{
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: start;
+
+}
+
+.textside1 > :nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+    max-width: 30vw;
+   
+    
+}
+
+
+.textside1 > :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    max-width: 40vw;
+}
+
+.graphics2{
+    position: relative;
+}
+.graphics2 img{
+    width: 40vw;
+    position: relative;
+}
+
+.animated{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 22vw;
+    height: 14vh;
+    border-radius: 15px;
+    color: antiquewhite;
+    border: 1px solid wheat;
+    bottom: 20px;
+   
+    position: absolute;
+    right: 130px;
+    
+ 
+    background-color: black;
+}
+
+.animated > :nth-child(1){
+    width: 3.5vw;
+}
+
+.animated span img{
+   
+        width: 3vw;
+}
+
+.bothtext{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+    
